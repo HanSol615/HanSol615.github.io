@@ -1,65 +1,179 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title> Main </title>
-        <style>
-            h1 {
-                text-align: center;
-            }
+<!DOCTYPE HTML>
+    <html><head><title>HanSol's Portfolio</title><meta charset="utf-8"><meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="assets/css/main.css"></head><body>
 
-            #txt_welcome {
-                text-align: center; 
-                margin-bottom: 50px;
-            }
+		<!-- Header -->
+			<header id="header" class="alt"><div class="logo"><a href="index.html">Portfolio<span> by HanSol</span></a></div>
+				<a href="#menu" class="toggle"><span>Menu</span></a>
+			</header>
 
-            .card {
-                text-align: center;
-            }
+            <!-- Banner -->
+            <section id="banner" data-video="images/banner"><div class="inner">
+					<h1>Welcome!</h1>
+					<p>안녕하세요, 제 포트폴리오 페이지에 방문해주셔서 감사합니다.<br>
+					</p>
+					<a href="#one" class="button special scrolly">시작하기</a>
+				</div></section>
 
-            .card_title {
-                font-size: 20px;
-            }
+                <!-- One -->
+                <section id="one" class="wrapper style2"><div class="inner">
+					<div>
+						<div class="box">
+							<div class="image fit">
+								<img src="images/about_me.jpg" alt="" width="3472" height="1035"></div>
+							<div class="content">
+								<header class="align-center"><h2>About Me</h2>
+									<p>상상과 현실을 잇는 개발자가 되자</p>
+								</header><hr>
+                                <h3>학력</h3>
+                                <p>명지전문대학 인터넷보안공학과 (2021.3 ~ 현재)</p>
+                                <h3>자격증</h3>
+                                <p>리눅스 마스터 2급</p>
+                                <p>네트워크관리사 2급</p>
+                                <h3>교육</h3>
+                                <p>자동화 시스템 기업 현장실습 (2023.7 ~ 2023.8)</p>
+                                <p>프로그래머스 웹 풀 사이클 데브코스 (2024.2 ~ 현재)</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
-            .card_button {
-                font-size: 25px;
-                width: fit-content;
-                height: 30px;
-            }
+            <!-- Two -->
+            <section id="two" class="wrapper style3"><div class="inner">
+					<div id="flexgrid">
+						<div>
+							<header><h3>GitHub</h3>
+							</header><img src="images/github_logo.png" alt="" width="200px" height="200px" class="logo_image">
+							<ul class="actions"><li><a href="https://github.com/HanSol615" class="button alt">See More</a></li>
+							</ul></div>
+						<div>
+							<header><h3>Velog</h3>
+							</header><img src="images/velog_logo.jpg" alt="" width="200px" height="200px" class="logo_image">
+							<ul class="actions"><li><a href="https://velog.io/@hansol615/posts" class="button alt">See More</a></li>
+							</ul></div>
+						<div>
+							<header><h3>Blank</h3>
+							</header><p>Suspendisse mauris. Fusce accumsan mollis eros. Pellentesque a diam sit amet mi ullamcorper vehicula.</p>
+							<ul class="actions"><li><a href="#" class="button alt">Learn More</a></li>
+							</ul></div>
+					</div>
+				</div>
+            </section>
 
-            .card_img {
-                width: 300px;
-                height: 300px;
-            }
-        </style>
-    </head>
-    <body>
-        <h1> 한솔의 포트폴리오 </h1>
-        <div id="txt_welcome">
-            안녕하세요 <br>
-            제 프로젝트들을 소개합니다.
-            <br>
-            <br>
-        </div>
-        <div style="display:grid; grid-template-columns: 1fr 1fr 1fr;">
-            <div class="card">
-                <img class="card_img" src="./img/vegetables.jpg">
-                <p class="card_title"> 냉장고 관리 앱 </p>
-                <input class="card_button" type="button" value="자세히 보러가기" 
-                    onclick="location.href='https://github.com/HanSol615/Avocado'">
-            </div>
-            <div class="card">
-                <img class="card_img" src="./img/dog.jpeg">
-                <p class="card_title"> 반려동물 관리 앱 </p>
-                <input class="card_button" type="button" value="자세히 보러가기"
-                  onclick="location.href='https://github.com/HanSol615/anyCast'">
-            </div>
-            <div class="card">
-                <img class="card_img" src="/img/console.jpeg">
-                <p class="card_title"> 자바 스윙 활용 게임 </p>
-                <input class="card_button" type="button" value="자세히 보러가기" 
-                  onclick="location.href='https://github.com/HanSol615/A-Strange-Museum'">
-            </div>
-        </div>
-    </body>
-</html>
+            <!-- Three -->
+            <section id="three" class="wrapper style2"><div class="inner">
+					<div class="grid-style">
+						<div>
+							<div class="box">
+								<div class="image fit">
+									<img src="images/metashield.JPEG" alt="" width="3472" height="1236"></div>
+								<div class="content">
+									<header class="align-center"><h2>MetaShield</h2>
+										<p>유니티를 활용한 메타버스 교육 플랫폼</p>
+									</header><hr><p>Unity WebGL과 Photon Unity Network 서버를 통해 사용자끼리 가상의 공간에서 채팅 및 영상통화로 소통이 가능한 메타버스 플랫폼입니다. 로그인하여 소속 인증이 가능하며, 학교나 기업의 교육 뿐만아니라 모임이나 스터디룸으로 활용하여 사용자 간 시공간의 제약을 줄이고 원활한 소통과 협업을 기대할 수 있습니다.</p>
+                                    
+								</div>
+							</div>
+						</div>
+
+						<div>
+							<div class="box">
+								<div class="image fit">
+                                    <a href="https://github.com/HanSol615/Avocado"><img src="images/avocado.JPEG" alt="" width="3472" height="1236"></a>
+                                </div>
+								<div class="content">
+									<header class="align-center"><h2>Avocado</h2>
+										<p>머신러닝을 활용한 식재료 관리 어플</p>
+									</header><hr><p>AndroidStudio와 Java를 사용하여 제작한 냉장고 속 식재료 관리 어플리케이션 입니다. 식재료의 구입과 사용, 유통기한과 소비기한을 한눈에 확인할 수 있습니다. 또한 냉장고 속 식재료를 사용하여 만들 수 있는 요리의 레시피를 제공하여 낭비되는 식재료를 줄이고 보다 편리한 식생활을 추구할 수 있을 것입니다.</p>
+								</div>
+							</div>
+						</div>
+
+						<div>
+							<div class="box">
+								<div class="image fit">
+                                    <a href="https://github.com/HanSol615/A-Strange-Museum"><img src="images/a_strange_museum.JPEG" alt="" width="3472" height="1236"></a>
+								</div>
+								<div class="content">
+									<header class="align-center"><h2>A Strange Museum</h2>
+										<p>자바 스윙을 이용한 RPG 게임</p>
+									</header><hr><p>박물관을 견학하던 주인공 '임복환'은 박물관의 이상한 낌새를 느끼게 되고, 역사 속 현장으로 이끌려 들어갑니다. 그곳에서 역사적 사건을 경험하며 갖은 역경과 고난을 이겨내고, 사건을 해결하여 다시 현실로 돌아오게 된다는 내용의 RPG 게임입니다. 이를 통해 플레이어는 게임 속 상황에 몰입하고, 우리의 역사를 다시금 되돌아볼 수 있을 것입니다. </p>
+								</div>
+							</div>
+						</div>
+
+						<div>
+							<div class="box">
+								<div class="image fit">
+                                    <a href="https://github.com/HanSol615/anyCast"><img src="images/anycast.JPEG" alt="" width="3472" height="1236"></a>
+								</div>
+								<div class="content">
+									<header class="align-center"><h2>AnyCast</h2>
+										<p>반려동물 모니터링 시스템</p>
+									</header><hr><p>Ionic Angular와 node.js, TypeScript를 사용한 반려동물 실시간 모니터링 앱 입니다. 반려동물이 홀로 어떻게 지내는지 궁금할 때, 휴대폰으로 반려동물의 상황을 실시간으로 확인하고 음성 통화 기능으로 반려동물과 소통할 수 있습니다. AnyCast를 통해 반려동물을 외롭지 않게 하고, 늘 사용자의 곁에서 보살필 수 있습니다.</p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+            </section>
+
+            <!-- Four -->
+            <section id="four" class="wrapper style3"><div class="inner">
+					<header class="align-center"><h2>Skill Stack</h2>
+                        <p>Java, JavaScript, C, C#, Unity, Firebase, MariaDB</p>
+						<img src="" alt="">
+					</header></div>
+			</section>
+
+            <!-- Footer -->
+            <footer id="footer" class="wrapper"><div class="inner">
+				<section>
+					<div class="box">
+						<div class="content">
+							<h2 class="align-center">Contact</h2>
+							<hr>
+							<form id="contact-form">
+								<div class="field half first">
+									<label for="subject">Subject</label>
+									<input name="subject" id="subject" type="text" placeholder="Subject">
+								</div>
+								<div class="field half">
+									<label for="email">Your Email</label>
+									<input name="email" id="email" type="email" placeholder="Email">
+								</div>
+								<div class="field">
+									<label for="message">Message</label>
+									<textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
+								</div>
+								<ul class="actions align-center">
+									<li>
+										<button type="submit" class="button special">Send Message</button>
+									</li>
+								</ul>
+							</form>
+						
+								</div></footer><div class="copyright">
+								Powered by: <a href="https://templated.co/">Templated.co</a>.
+							</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script><script src="assets/js/jquery.scrolly.min.js"></script><script src="assets/js/jquery.scrollex.min.js"></script><script src="assets/js/skel.min.js"></script><script src="assets/js/util.js"></script><script src="assets/js/main.js"></script></body></html>
+			<script>
+				document.getElementById("contact-form").addEventListener("submit", function(event) {
+					event.preventDefault();
+				
+					var formData = new FormData(this);
+					var subject = encodeURIComponent(formData.get('subject'));
+					var email = encodeURIComponent(formData.get('email'));
+					var message = encodeURIComponent(formData.get('message'));
+				
+					var mailtoLink = "mailto:hsol52102@gmail.com"
+								   + "?subject=" + subject
+								   + "&body=" + message;
+					window.location.href = mailtoLink;
+				
+					this.reset();
+				});
+				</script>
